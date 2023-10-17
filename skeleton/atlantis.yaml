@@ -1,0 +1,9 @@
+version: 3
+automerge: true
+projects:
+  - dir: PP/teams
+    workspace: default
+    autoplan:
+      when_modified: ["*.tf", "*.yaml"]
+      enabled: true
+    workflow: github-sandbox

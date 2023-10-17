@@ -1,0 +1,23 @@
+teams:
+  github-poc-team:
+    description: "github poc team"
+  github-team-test1:
+    description: "desc1"
+    privacy: closed
+    member:
+      - username1
+      - username2
+    maintainer:
+      - username3
+    repositories:
+      - repo1
+      - repo2
+  github-team-test2:
+    parent: github-poc-team
+    member:
+      - username2
+      - username1
+    maintainer:
+      - username3
+    repositories:
+      - repo3
